@@ -1,0 +1,57 @@
+:root {
+    --main-text: #073064;
+    
+    --title-green: #60cb32;
+    --hover-green: #369c00;
+    --title-blue: #0097b2;
+    --hover-blue: #087d92;
+
+    --logo-font: 'League Spartan', sans-serif;
+    --title-font: 'League Gothic', sans-serif;
+    --main-font: 'Hanken Grotesk', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, button {
+    border: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--main-font);
+    color: var(--main-text);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    max-width: 30%;
+}
+
+header div h1 {
+    font-family: var(--logo-font);
+    font-size: 1.5rem;
+    border-left: 2px dotted var(--title-blue);
+}
