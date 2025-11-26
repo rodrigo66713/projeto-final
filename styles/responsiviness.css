@@ -30,6 +30,10 @@
     #problem p {
         margin-bottom: 5%;
     }
+
+    .planning-section div {
+        padding: 10% 5%;
+    }
 }
 
 @media (max-width: 425px) {
@@ -44,5 +48,9 @@
 
     .hero-text button {
         font-size: 1.2em;
+    }
+    
+    .planning-section .grid-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

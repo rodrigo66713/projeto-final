@@ -5,6 +5,7 @@
     --hover-green: #369c00;
     --title-blue: #0097b2;
     --hover-blue: #087d92;
+    --background-1: #f1f1f1;
 
     --logo-font: 'League Spartan', sans-serif;
     --title-font: 'League Gothic', sans-serif;
@@ -38,12 +39,17 @@ body {
     color: var(--main-text);
 }
 
-h2 {
+h2, h3 {
     font-family: var(--title-font);
     color: var(--title-green);
     line-height: 90%;
     font-size: 5em;
     font-weight: 500;
+}
+
+h3 {
+    line-height: 100%;
+    font-size: 4em;
 }
 
 header {
@@ -148,11 +154,12 @@ header nav ul li a{
 }
 
 .value-section {
+    background-color: var(--background-1);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5%; 
+    padding: 5%; 
 }
 
 .value-section div {
@@ -167,6 +174,49 @@ header nav ul li a{
     font-size: 1.5em;
     font-weight: bold;
     margin-top: 1.5em;
+}
+
+.planning-section {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.planning-section div {
+    padding: 5%;
+}
+
+.planning-section div h3 {
+    padding: 5% 0;
+}
+
+.planning-section div p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.planning-section h2 {
+    font-size: 6em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blue-icon, .green-icon {
+    color: #ffffff;
+    background-color: var(--title-green);
+    padding: 1rem 1.2rem;
+    font-size: 2.2rem;
+    border-radius: 100%;
+}
+
+.blue-icon {
+    background-color: var(--title-blue);
+}
+
+.blue-title {
+    color: var(--title-blue);
 }
 
 .blue-span {
