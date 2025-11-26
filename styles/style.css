@@ -21,24 +21,28 @@ li {
     list-style: none;
 }
 
-a {
+a, i {
+    cursor: pointer;
     text-decoration: none;
 }
 
 input, button {
+    cursor: pointer;
     border: 0;
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: var(--main-font);
     color: var(--main-text);
 }
 
 header {
     display: flex;
-    justify-content: space-between;
-    padding: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 header div {
@@ -47,11 +51,37 @@ header div {
 }
 
 header div img {
-    max-width: 30%;
+    width: 25%;
 }
 
 header div h1 {
     font-family: var(--logo-font);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border-left: 2px dotted var(--title-blue);
+    padding: 3px 10px;
+    color: var(--title-green);
+    letter-spacing: 1.75px;
+}
+
+h1 .blue-span {
+    color: var(--title-blue)
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li a{
+    text-wrap: nowrap;
+    padding: 0 2rem;
+    color: var(--main-text);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header .header-menu {
+    font-size: 2rem;
+    padding-left: 4px;
 }
