@@ -29,6 +29,7 @@ a, i {
 input, button {
     cursor: pointer;
     border: 0;
+    background-color: green;
 }
 
 body {
@@ -42,16 +43,12 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 1rem 5%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 header div {
     display: flex;
     align-items: center;
-}
-
-header div img {
-    width: 25%;
 }
 
 header div h1 {
@@ -61,10 +58,6 @@ header div h1 {
     padding: 3px 10px;
     color: var(--title-green);
     letter-spacing: 1.75px;
-}
-
-h1 .blue-span {
-    color: var(--title-blue)
 }
 
 header nav ul {
@@ -78,10 +71,81 @@ header nav ul li a{
     padding: 0 2rem;
     color: var(--main-text);
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
-header .header-menu {
-    font-size: 2rem;
-    padding-left: 4px;
+#login-icon {
+    font-size: 3rem;
+    margin-left: 10px;
+}
+
+#menu-icon {
+    font-size: 1.5rem;
+}
+
+.hero-section {
+    background-image: url('../assets/img/praia-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5% 5% 0 5%;
+}
+
+.hero-section .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px 10px 0 0;
+    padding: 5% 8%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75em;
+    margin-right: 5%;
+}
+
+.hero-text h2 {
+    font-family: var(--title-font);
+    font-size: 5em;
+    color: var(--title-green);
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 10%;
+}
+
+.hero-text button{
+    background-color: var(--title-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.hero-section button:hover {
+    background-color: var(--hover-green);
+    transition: 0.5s;
+}
+
+.hero-text button img {
+    width: 4em;
+}
+
+.hero-section img {
+    max-width: 50%;
+}
+
+.blue-span {
+    color: var(--title-blue)
 }

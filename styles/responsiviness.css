@@ -1,5 +1,32 @@
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     header nav {
         display: none;
+    }
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-text p, .hero-text h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content > img {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero-section {
+        background: transparent;
+    }
+
+    .hero-text h2 {
+        font-size: 4.5em;
+    }
+
+    .hero-text button {
+        font-size: 1.2em;
     }
 }
