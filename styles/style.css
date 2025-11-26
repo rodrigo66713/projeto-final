@@ -38,6 +38,14 @@ body {
     color: var(--main-text);
 }
 
+h2 {
+    font-family: var(--title-font);
+    color: var(--title-green);
+    line-height: 90%;
+    font-size: 5em;
+    font-weight: 500;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -107,13 +115,6 @@ header nav ul li a{
     margin-right: 5%;
 }
 
-.hero-text h2 {
-    font-family: var(--title-font);
-    font-size: 5em;
-    color: var(--title-green);
-    font-weight: bold;
-}
-
 .hero-text p {
     font-weight: bold;
     font-size: 1.5em;
@@ -144,6 +145,28 @@ header nav ul li a{
 
 .hero-section img {
     max-width: 50%;
+}
+
+.value-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%; 
+}
+
+.value-section div {
+    padding: 5%;
+}
+
+.value-section #problem {
+    border-right: 3px dotted var(--main-text);
+}
+
+.value-section p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1.5em;
 }
 
 .blue-span {

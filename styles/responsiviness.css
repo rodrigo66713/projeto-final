@@ -10,10 +10,25 @@
     .hero-text p, .hero-text h2 {
         margin: 0;
         padding: 0;
+        line-height: 100%;
     }
 
     .content > img {
         display: none;
+    }
+
+    .value-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .value-section #problem {
+        border-right: 0;
+        border-bottom: 3px dotted var(--main-text);
+    }
+
+    #problem p {
+        margin-bottom: 5%;
     }
 }
 
@@ -24,6 +39,7 @@
 
     .hero-text h2 {
         font-size: 4.5em;
+        line-height: 100%;
     }
 
     .hero-text button {
