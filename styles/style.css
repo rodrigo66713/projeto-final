@@ -52,6 +52,11 @@ h3 {
     font-size: 4em;
 }
 
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -81,7 +86,7 @@ header nav ul {
 }
 
 header nav ul li a{
-    text-wrap: nowrap;
+    text-wrap: wrap;
     padding: 0 2rem;
     color: var(--main-text);
     font-weight: bold;
@@ -166,14 +171,12 @@ header nav ul li a{
     padding: 5%;
 }
 
-.value-section #problem {
-    border-right: 3px dotted var(--main-text);
+.value-section p {
+    margin-top: 1.5em;
 }
 
-.value-section p {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 1.5em;
+.value-section #problem {
+    border-right: 3px dotted var(--main-text);
 }
 
 .planning-section {
@@ -187,11 +190,6 @@ header nav ul li a{
 
 .planning-section div h3 {
     padding: 5% 0;
-}
-
-.planning-section div p {
-    font-size: 1.5em;
-    font-weight: bold;
 }
 
 .planning-section h2 {
@@ -217,6 +215,34 @@ header nav ul li a{
 
 .blue-title {
     color: var(--title-blue);
+}
+
+.reasons-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+    background-color: var(--background-1);
+}
+
+.reasons-content div p {
+    display: flex;
+    align-items: center;
+}
+
+.reasons-content > p {
+    padding: 1.2em 3em 1.2em 0;
+}
+
+.reasons-content div p i {
+    font-size: 2em;
+    padding: 5px;
+    color: var(--title-green);
+}
+
+.reasons-section img {
+    max-width: 50%;
+    border-radius: 10px;
 }
 
 .blue-span {
