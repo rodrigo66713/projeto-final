@@ -74,6 +74,10 @@
     .reasons-content div p i {
         padding: 0.4em;
     }
+
+    footer .footer-menu p {
+        display: none;
+    }
 }
 
 @media (max-width: 450px) {
@@ -127,5 +131,23 @@
 
     .catching-section .touristing-button {
         font-size: 1.5em;
+    }
+
+    footer .footer-menu, footer .attribution {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.5em;
+    }
+
+    .footer-menu nav {
+        border-top: 1px solid #ffffff;
+        padding-top: 1.2em;
+    }
+
+    footer .attribution {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
