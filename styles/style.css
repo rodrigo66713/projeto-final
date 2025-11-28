@@ -27,12 +27,6 @@ a, i {
     text-decoration: none;
 }
 
-input, button {
-    cursor: pointer;
-    border: 0;
-    background-color: green;
-}
-
 body {
     font-size: 14px;
     font-family: var(--main-font);
@@ -154,7 +148,8 @@ header nav ul li a{
 }
 
 .touristing-button img {
-    width: 4.5em;
+    width: 4em;
+    padding: 0.3em;
 }
 
 .hero-section img {
@@ -266,13 +261,6 @@ header nav ul li a{
     margin-top: 0.5em;
 }
 
-.catching-section 
-.touristing-button 
-img {
-    padding: 0.3em;
-    width: 4em;
-}
-
 footer {
     background-color: var(--title-green);
     color: #ffffff;
@@ -328,4 +316,42 @@ footer .attribution span a {
     color: #ffffff;
     font-size: 2.5em;
     margin-left: 10px;
+}
+
+footer img {
+    max-width: 30%;
+}
+
+/* detail page */
+
+main .top-menu {
+    padding: 3% 10% 0 10%;
+}
+
+main .top-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .top-menu ul li a {
+    text-align: center;
+    background-color: var(--main-text);
+    border-radius: 100px;
+    padding: 1em;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5% 10%;
+    gap: 2em;
+}
+
+.card img {
+    max-height: 50%;
+    max-width: 100%;
 }
