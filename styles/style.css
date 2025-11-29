@@ -198,7 +198,7 @@ header nav ul li a{
     font-size: 6em;
 }
 
-.grid-container {
+.grid-planning {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -329,7 +329,7 @@ footer img {
 /* detail page */
 
 .menu-section {
-    padding: 3% 10%;
+    padding: 3% 10% 0 10%;
 }
 
 .menu-section nav ul {
@@ -362,3 +362,46 @@ footer img {
     scroll-snap-align: start;
 }
 
+.trips-sections {
+    padding: 5% 10%;
+}
+
+.grid-trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+    margin: 5% 10%;
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.card p i {
+    color: var(--title-green);
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.card h3, .card .card-price {
+    font-family: var(--main-font);
+    color: var(--main-text);
+    font-weight: bold;
+}
+
+.card h3 {
+    font-size: 2em;
+}
+
+.card .card-price {
+    font-size: 2.1em;
+}
+
+.card .touristing-button {
+    margin-top: 0.7em;
+}
