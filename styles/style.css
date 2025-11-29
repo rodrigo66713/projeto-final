@@ -334,11 +334,19 @@ footer img {
 
 .menu-section nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 1.5em;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
 .menu-section nav ul li {
-    width: 20%;
+    flex: 0 0 auto;
+    width: 225px;
+}
+
+.menu-section nav ul::-webkit-scrollbar {
+    display: none;
 }
 
 .menu-section nav ul li button {
@@ -351,5 +359,6 @@ footer img {
     padding: 1.2em;
     border-radius: 100px;
     width: 100%;
+    scroll-snap-align: start;
 }
 

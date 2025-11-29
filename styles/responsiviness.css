@@ -102,7 +102,9 @@
     }
 
     /* detail page */
-
+    .menu-section {
+    padding: 5% 10%;
+}
 }
 
 @media (max-width: 450px) {
