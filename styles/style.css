@@ -22,6 +22,11 @@ li {
     list-style: none;
 }
 
+button {
+    border: 0;
+    cursor: pointer;
+}
+
 a, i {
     cursor: pointer;
     text-decoration: none;
@@ -32,7 +37,6 @@ body {
     font-family: var(--main-font);
     color: var(--main-text);
 }
-
 h2, h3 {
     font-family: var(--title-font);
     color: var(--title-green);
@@ -324,34 +328,28 @@ footer img {
 
 /* detail page */
 
-main .top-menu {
-    padding: 3% 10% 0 10%;
+.menu-section {
+    padding: 3% 10%;
 }
 
-main .top-menu ul {
+.menu-section nav ul {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-main .top-menu ul li a {
-    text-align: center;
-    background-color: var(--main-text);
-    border-radius: 100px;
-    padding: 1em;
-    font-size: 1.2em;
+.menu-section nav ul li {
+    width: 20%;
+}
+
+.menu-section nav ul li button {
     color: #ffffff;
+    font-size: 100%;
     font-weight: bold;
+    font-size: 1.2em;
+    background-color: var(--main-text);
+    text-align: center;
+    padding: 1.2em;
+    border-radius: 100px;
+    width: 100%;
 }
 
-main .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 5% 10%;
-    gap: 2em;
-}
-
-.card img {
-    max-height: 50%;
-    max-width: 100%;
-}
