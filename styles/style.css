@@ -425,3 +425,39 @@ footer img {
     padding: 0.3em;
     font-size: 1.3em;
 }
+
+#mobile-menu-options {
+    background-color: white;
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+    visibility: hidden;
+}
+
+#mobile-menu-options > i {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    height: fit-content;
+}
+
+.mobile-menu-nav {
+    padding: 1rem 2rem;
+}
+
+.mobile-menu-nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobile-menu-nav ul li {
+    display: inline;
+}
+
+.mobile-menu-nav ul li a{
+    text-wrap: wrap;
+    color: var(--main-text);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+

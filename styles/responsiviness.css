@@ -3,6 +3,10 @@
         display: none;
     }
 
+    #mobile-menu-options {
+        visibility: visible;
+    }
+
     .hero-section {
         text-align: center;
     }
@@ -123,7 +127,7 @@
     p {
         font-size: 1.2em;
     }
-    
+
     .hero-section {
         background: transparent;
     }
