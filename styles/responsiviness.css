@@ -104,7 +104,19 @@
     /* detail page */
     .menu-section {
     padding: 5% 10%;
-}
+    }
+
+    .menu-section nav ul {
+        padding-bottom: 0;
+    }
+
+    .menu-section nav ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    .trips-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 450px) {
@@ -158,5 +170,11 @@
 
     .catching-section .touristing-button {
         font-size: 1.5em;
+    }
+
+    /* detail page */
+    .trips-section {
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 }
