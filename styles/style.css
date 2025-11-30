@@ -67,12 +67,12 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-header div {
+header a {
     display: flex;
     align-items: center;
 }
 
-header div h1 {
+header a h1 {
     font-family: var(--logo-font);
     font-size: 1.3rem;
     border-left: 2px dotted var(--title-blue);
@@ -194,10 +194,6 @@ header nav ul li a{
     padding: 5% 0;
 }
 
-.planning-section h2 {
-    font-size: 6em;
-}
-
 .grid-planning {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -262,6 +258,7 @@ header nav ul li a{
 
 .catching-section .touristing-button {
     font-size: 2em;
+    padding: 0;
     margin-top: 0.5em;
 }
 

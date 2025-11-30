@@ -23,7 +23,7 @@
         text-align: left;
         width: 100%;
         font-size: 1.5em;
-        padding: 0.6em;
+        padding: 0.2em;
     }
 
     .touristing-button img {
@@ -83,6 +83,10 @@
         display: none;
     }
 
+    .catching-section .touristing-button {
+        padding: 0.2em;
+    }
+
     footer .footer-menu, footer .attribution {
         display: flex;
         flex-direction: column;
@@ -124,6 +128,15 @@
 }
 
 @media (max-width: 450px) {
+    h2 {
+        font-size: 4em;
+        line-height: 100%;
+    }
+    
+    h3 {
+        font-size: 3em;
+    }
+
     p {
         font-size: 1.2em;
     }
@@ -145,12 +158,12 @@
         align-items: center;
         text-align: left;
         width: 100%;
-        font-size: 2em;
+        font-size: 1.2em;
         padding: 0.6em;
     }
 
     .hero-text .touristing-button {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     
     .planning-section .grid-planning {
@@ -173,7 +186,7 @@
     }
 
     .catching-section .touristing-button {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     /* detail page */
